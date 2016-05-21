@@ -1,0 +1,5 @@
+C:\Learn\Algorithms\Algorithms.Search\bin\Debug\Algorithms.Search.dll
+C:\Learn\Algorithms\Algorithms.Search\bin\Debug\Algorithms.Search.pdb
+C:\Learn\Algorithms\Algorithms.Search\obj\Debug\Algorithms.Search.dll
+C:\Learn\Algorithms\Algorithms.Search\obj\Debug\Algorithms.Search.pdb
+C:\Learn\Algorithms\Algorithms.Search\obj\Debug\Algorithms.Search.csprojResolveAssemblyReference.cache

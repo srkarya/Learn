@@ -1,0 +1,8 @@
+C:\Learn\Algorithms\Algorithms\bin\Debug\Algorithms.exe.config
+C:\Learn\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+C:\Learn\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Learn\Algorithms\Algorithms\bin\Debug\Algorithms.Search.dll
+C:\Learn\Algorithms\Algorithms\bin\Debug\Algorithms.Search.pdb
+C:\Learn\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Learn\Algorithms\Algorithms\obj\Debug\Algorithms.exe
+C:\Learn\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
