@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Search", "Algorithms.Search\Algorithms.Search.csproj", "{CC975A5B-DB20-454D-A0A6-8BF77E9BCC56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Sort", "Algorithms.Sort\Algorithms.Sort.csproj", "{BAD0BBBE-C66E-4149-B1C4-EDF2C955770B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CC975A5B-DB20-454D-A0A6-8BF77E9BCC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC975A5B-DB20-454D-A0A6-8BF77E9BCC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC975A5B-DB20-454D-A0A6-8BF77E9BCC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD0BBBE-C66E-4149-B1C4-EDF2C955770B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD0BBBE-C66E-4149-B1C4-EDF2C955770B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD0BBBE-C66E-4149-B1C4-EDF2C955770B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD0BBBE-C66E-4149-B1C4-EDF2C955770B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

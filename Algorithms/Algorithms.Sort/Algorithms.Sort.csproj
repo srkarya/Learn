@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2E40EC4F-FDD4-4213-B7C2-2E5031312B2B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{BAD0BBBE-C66E-4149-B1C4-EDF2C955770B}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Algorithms</RootNamespace>
-    <AssemblyName>Algorithms</AssemblyName>
+    <RootNamespace>Algorithms.Sort</RootNamespace>
+    <AssemblyName>Algorithms.Sort</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,24 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinarySearchMain.cs" />
-    <Compile Include="BubbleSortMain.cs" />
-    <Compile Include="LinearSearchMain.cs" />
+    <Compile Include="BubbleSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectionSortMain.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Algorithms.Search\Algorithms.Search.csproj">
-      <Project>{cc975a5b-db20-454d-a0a6-8bf77e9bcc56}</Project>
-      <Name>Algorithms.Search</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Algorithms.Sort\Algorithms.Sort.csproj">
-      <Project>{bad0bbbe-c66e-4149-b1c4-edf2c955770b}</Project>
-      <Name>Algorithms.Sort</Name>
-    </ProjectReference>
+    <Compile Include="SelectionSort.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
