@@ -38,7 +38,7 @@ namespace Algorithms
 		//		arr[i] = Convert.ToInt32(string.IsNullOrEmpty(userInput) ? zero : userInput);
 		//	}
 
-		//	if (arr.Length > 0)
+		//	if (arr.Any())
 		//	{
 		//		ss.Sort(arr);
 		//		Console.WriteLine("Sorted array:");
