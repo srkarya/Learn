@@ -7,6 +7,14 @@
 	/// </summary>
 	public class MergeSort
 	{
+		#region Public methods
+
+		/// <summary>
+		/// To sort an integer array
+		/// </summary>
+		/// <param name="arr">Integer array</param>
+		/// <param name="l">Left index</param>
+		/// <param name="r">Right index</param>
 		public void Sort(int[] arr, int l, int r)
 		{
 			if (l < r)
@@ -18,6 +26,17 @@
 			}
 		}
 
+		#endregion
+
+		#region Private methods
+
+		/// <summary>
+		/// To merge an sorted array
+		/// </summary>
+		/// <param name="arr">Integer array</param>
+		/// <param name="l">Left index</param>
+		/// <param name="r">Right index</param>
+		/// <param name="m">Middle index</param>
 		private void Merge(int[] arr, int l, int r, int m)
 		{
 			// Find sizes of two subarrays to be merged
@@ -76,6 +95,8 @@
 				k++;
 			}
 		}
+
+		#endregion
 	}
 
 	#endregion

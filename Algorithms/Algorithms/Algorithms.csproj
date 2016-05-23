@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BinarySearchMain.cs" />
     <Compile Include="BubbleSortMain.cs" />
+    <Compile Include="HeapSortMain.cs" />
     <Compile Include="InsertionSortMain.cs" />
     <Compile Include="LinearSearchMain.cs" />
     <Compile Include="MergeSortMain.cs" />
