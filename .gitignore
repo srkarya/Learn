@@ -225,6 +225,7 @@ pip-log.txt
 *.o
 *.so
 *.pdb
+*.cache
 
 # Packages #
 ############
