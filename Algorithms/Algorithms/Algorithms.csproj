@@ -50,6 +50,8 @@
     <Compile Include="LinearSearchMain.cs" />
     <Compile Include="MergeSortMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSortMain.cs" />
+    <Compile Include="RadixSortMain.cs" />
     <Compile Include="SelectionSortMain.cs" />
   </ItemGroup>
   <ItemGroup>

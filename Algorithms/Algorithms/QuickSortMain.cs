@@ -1,15 +1,16 @@
 ﻿#region Namespace
+using Algorithms.Sort;
 using System;
+using System.Linq;
 #endregion
 
 namespace Algorithms
 {
-	#region Class Heap Sort
-
+	#region Class Quick Sort
 	/// <summary>
-	/// Class Heap Sort
+	/// Class Quick Sort
 	/// </summary>
-	public class HeapSortMain
+	public class QuickSortMain
 	{
 		#region Private constants
 
@@ -28,7 +29,7 @@ namespace Algorithms
 		///// <param name="args">Input arguments</param>
 		//public static void Main(string[] args)
 		//{
-		//	HeapSort hs = new HeapSort();
+		//	QuickSort qs = new QuickSort();
 		//	Console.WriteLine("Ënter array size");
 		//	var inputSize = Console.ReadLine().Trim();
 		//	var size = Convert.ToInt32(string.IsNullOrEmpty(inputSize) ? zero : inputSize);
@@ -43,7 +44,7 @@ namespace Algorithms
 
 		//	if (arr.Any())
 		//	{
-		//		hs.Sort(arr);
+		//		qs.Sort(arr, 0, arr.Length - 1);
 		//		Console.WriteLine("Sorted array:");
 		//		Print(arr);
 		//		Console.Read();
