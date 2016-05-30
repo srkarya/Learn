@@ -1,13 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithms.Sort
+﻿namespace Algorithms.Sort
 {
+	#region Class Radix Sort
+
+	/// <summary>
+	/// Class Radix Sort
+	/// </summary>
 	public class RadixSort
 	{
+		#region Public methods
+
+		/// <summary>
+		/// To sort an integer array
+		/// </summary>
+		/// <param name="arr">Integer array</param>
 		public void Sort(int[] arr)
 		{
 			var n = arr.Length;
@@ -22,6 +27,16 @@ namespace Algorithms.Sort
 			}
 		}
 
+		#endregion
+
+		#region Private methods
+
+		/// <summary>
+		/// To get the max integer item from an array
+		/// </summary>
+		/// <param name="arr">Integer array</param>
+		/// <param name="n">Number of elements</param>
+		/// <returns>Integer</returns>
 		private int GetMax(int[] arr, int n)
 		{
 			var max = arr[0];
@@ -35,6 +50,12 @@ namespace Algorithms.Sort
 			return max;
 		}
 
+		/// <summary>
+		/// To sort an integer by counting
+		/// </summary>
+		/// <param name="arr">Integer array</param>
+		/// <param name="n">Number of elements</param>
+		/// <param name="exp">Base value</param>
 		private void CountSort(int[] arr, int n, int exp)
 		{
 			var output = new int[n];
@@ -61,5 +82,9 @@ namespace Algorithms.Sort
 				arr[i] = output[i];
 			}
 		}
+
+		#endregion
 	}
+
+	#endregion
 }
